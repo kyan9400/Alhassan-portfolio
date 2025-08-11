@@ -13,9 +13,6 @@ const TextSection = () => (
 			<br />
             <span className="text-accent font-bold">I'm Alhassan Alfarran</span>
 		</h1>
-		<p className="max-w-[500px] mb-9 text-primary/80 dark:text-white/80">
-            Programmer, Teacher
-		</p>
 		<div className="flex flex-col xl:flex-row items-center gap-8">
 			<SocialLinks />
 		</div>
