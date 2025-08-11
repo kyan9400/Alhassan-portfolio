@@ -7,9 +7,8 @@ interface SocialProps {
 }
 
 const socials = [
-	{ icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/inescatana/' },
-	{ icon: <FaGithub />, path: 'https://github.com/inesscatana' },
-	{ icon: <FaDev />, path: 'https://dev.to/inescatana' },
+    { icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/alhassan-alfarran-880b00246/' },
+    { icon: <FaGithub />, path: 'https://github.com/kyan9400' },
 ]
 
 const Social = ({ containerStyles, iconStyles }: SocialProps) => {

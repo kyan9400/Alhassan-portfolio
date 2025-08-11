@@ -17,8 +17,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-	title: 'Inês Catana',
-	description: 'Software Developer with 8+ years of experience.',
+    title: 'Alhassan Alfarran Portfolio',
+    description:
+        'Fullstack Developer portfolio of Alhassan Alfarran — projects, resume, certificates, and contact details.',
 }
 
 export default function RootLayout({

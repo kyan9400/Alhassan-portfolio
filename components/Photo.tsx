@@ -20,21 +20,21 @@ export default function Photo() {
 						opacity: 1,
 						transition: { delay: 2.4, duration: 0.4, ease: 'easeInOut' },
 					}}
-					className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] dark:mix-blend-lighten absolute"
+					className="w-[300px] h-[300px] xl:w-[498px] xl:h-[418px] dark:mix-blend-lighten absolute"
 				>
-					<Image
+                    <Image
 						src="/assets/profile-photo.png"
 						priority
 						quality={100}
 						fill
-						alt="profile-photo"
+                        alt="Alhassan Alfarran profile photo"
 						className="object-contain"
 					/>
 				</motion.div>
 
 				{/* Circle */}
 				<motion.svg
-					className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+					className="w-[300px] xl:w-[516px] h-[300px] xl:h-[516px]"
 					fill="transparent"
 					viewBox="0 0 506 506"
 					xmlns="http://www.w3.org/2000/svg"

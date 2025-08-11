@@ -44,7 +44,7 @@ interface ListItemProps {
 }
 
 const ListItem = ({ children }: ListItemProps) => (
-	<li className="bg-[#f1f2f4] dark:bg-[#272c36] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+	<li className="bg-[#f1f2f4] dark:bg-[#272c36] h-[220px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
 		{children}
 	</li>
 )

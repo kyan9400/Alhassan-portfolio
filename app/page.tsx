@@ -7,35 +7,22 @@ import Photo from '@/components/Photo'
 
 const TextSection = () => (
 	<div className="text-center xl:text-left order-2 xl:order-none">
-		<span className="text-xl">Senior Frontend Enginner</span>
+        <span className="text-xl">A Fullstack Developer</span>
 		<h1 className="h1 mb-6">
-			Hello! I'm
+            Hello!
 			<br />
-			<span className="text-accent font-bold">Inês Catana</span>.
+            <span className="text-accent font-bold">I'm Alhassan Alfarran</span>
 		</h1>
 		<p className="max-w-[500px] mb-9 text-primary/80 dark:text-white/80">
-			I'm a <span className="font-bold">Frontend Enginner</span> with{' '}
-			<span className="font-bold">9 years</span> of experience and a{' '}
-			<span className="font-bold">dedicated teacher, </span> who is always
-			learning.
+            Programmer, Teacher
 		</p>
 		<div className="flex flex-col xl:flex-row items-center gap-8">
-			<DownloadButton />
 			<SocialLinks />
 		</div>
 	</div>
 )
 
-const DownloadButton = () => (
-	<a
-		className="group focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer justify-center rounded-full font-semibold border border-accent bg-accent text-primary dark:text-primary dark:bg-accent h-[56px] px-8 tracking-[2px] uppercase flex items-center gap-2"
-		href="/assets/cv_ines_catana.pdf"
-		download
-	>
-		Download CV
-		<FiDownload className="text-xl group-hover:translate-y-1 transition" />
-	</a>
-)
+
 
 const SocialLinks = () => (
 	<div className="mb-8 xl:mb-0">

@@ -38,16 +38,16 @@ const Contact = () => {
 								toast.success('Email sent successfully!')
 							}}
 						>
-							<h3 className="text-4xl text-accent font-medium">
-								Let's work together
-							</h3>
-							<p className="text-primary/60 dark:text-white/60">
-								Please contact me directly at{' '}
-								<a className="underline" href="mailto:example@gmail.com">
-									ines.arts@hotmail.com
-								</a>{' '}
-								or through this form.
-							</p>
+                            <h3 className="text-4xl text-accent font-medium">
+                                Contact Me
+                            </h3>
+                            <p className="text-primary/60 dark:text-white/60">
+                                Below are the details to reach out to me! Please contact me directly at{' '}
+                                <a className="underline" href="mailto:kyan775909@gmail.com">
+                                    kyan775909@gmail.com
+                                </a>{' '}
+                                or through this form.
+                            </p>
 							{/* Grid for Inputs */}
 							<div className="grid gap-6">
 								<Input

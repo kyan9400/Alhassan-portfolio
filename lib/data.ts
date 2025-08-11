@@ -40,19 +40,19 @@ import { IoLogoJavascript } from 'react-icons/io5'
 
 export const links = [
 	{
-		name: 'home',
+        name: 'Home',
 		path: '/',
 	},
 	{
-		name: 'resume',
+        name: 'Resume',
 		path: '/resume',
 	},
 	{
-		name: 'projects',
+        name: 'Projects',
 		path: '/projects',
 	},
 	{
-		name: 'contact',
+        name: 'Contact',
 		path: '/contact',
 	},
 ] as const
@@ -60,18 +60,18 @@ export const links = [
 export const info = [
 	{
 		icon: React.createElement(FaPhoneAlt),
-		title: 'Phone',
-		description: '(+351) 91 859 2011',
+		title: 'Contact Number',
+		description: '+7 919 399 749',
 	},
 	{
 		icon: React.createElement(FaEnvelope),
-		title: 'Email',
-		description: 'ines.arts@hotmail.com',
+		title: 'Email Address',
+		description: 'kyan775909@gmail.com',
 	},
 	{
 		icon: React.createElement(FaMapMarkerAlt),
 		title: 'Address',
-		description: 'Lisbon, Portugal',
+		description: 'Russia, Moscow',
 	},
 ] as const
 
@@ -79,265 +79,134 @@ export const info = [
 export const aboutData = {
 	title: 'About Me',
 	description:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.',
+        'With over 5 years of experience in frontend development, I bring a strong foundation in creating dynamic and responsive web applications. My expertise spans across HTML, CSS, JavaScript, and modern frameworks like Vue.js and React. I have a proven track record of delivering high-quality, user-centric interfaces and am proficient in utilizing tools such as Git, Webpack, and Vite to streamline development processes. In addition to frontend development, I have extensive experience in blockchain development, including smart contract development, DeFi protocols, and NFTs. I have worked on various blockchain projects, integrating with DeFi platforms and creating NFT marketplaces.',
 	info: [
 		{
 			fieldName: 'Name',
-			fieldValue: 'Inês Catana',
+			fieldValue: 'Alhassan Alfarran',
 		},
 		{
-			fieldName: 'Phone',
-			fieldValue: '+351 91 859 2011',
+			fieldName: 'Job Role',
+			fieldValue: 'Fullstack Developer',
 		},
 		{
 			fieldName: 'Experience',
-			fieldValue: '9 Years',
+			fieldValue: '5 Years 5 Months',
 		},
 		{
-			fieldName: 'Nationality',
-			fieldValue: 'Portuguese',
+			fieldName: 'Address',
+			fieldValue: 'Russia, Moscow',
 		},
 		{
-			fieldName: 'Email',
-			fieldValue: 'ines.arts@hotmail.com',
+			fieldName: 'Profile',
+			fieldValue: 'Programmer',
 		},
 		{
-			fieldName: 'Freelance | Permanent',
-			fieldValue: 'Available',
+			fieldName: 'Domain',
+			fieldValue: 'Web Development, E-commerce & Digital Marketing',
 		},
 		{
-			fieldName: 'Languages',
-			fieldValue: 'Portuguese, English, Spanish',
+			fieldName: 'Education',
+			fieldValue: 'Bachelor of Computer Science',
+		},
+		{
+			fieldName: 'Language',
+			fieldValue: 'English, Russian, Arabic',
+		},
+		{
+			fieldName: 'Technologies',
+			fieldValue: 'React, HTML, CSS, JavaScript, Node.js, Express.js, Next.js, Web3, Vue.js & TypeScript',
+		},
+		{
+			fieldName: 'Tools',
+			fieldValue: 'Git, Webpack, Vite, Figma, Tailwind CSS, PostgreSQL, Redis, Excel, JIRA, Google Analytics & SEO',
+		},
+		{
+			fieldName: 'Blockchain Tools',
+			fieldValue: 'Hardhat, Truffle, MetaMask, Infura, & Alchemy',
+		},
+		{
+			fieldName: 'Other Skills',
+			fieldValue: 'Responsive Design, Cross-Browser Compatibility, State Management & API Integration',
+		},
+		{
+			fieldName: 'Interest',
+			fieldValue: 'Traveling, Travel Photography, Learning New Technologies',
 		},
 	],
 } as const
 
 // Experience
+// Experience
 export const experiencesData = {
 	title: 'My Experience',
 	description:
-		"I've been working as a developer since 2015, starting as a Fullstack and then embarking on the Frontend journey. I've been working with ReactJS since 2018 and plan to continue, especially with NextJS and Typescript.",
+	  'Seasoned Fullstack Developer with 5+ years of experience crafting dynamic and responsive web applications. Proven expertise in frontend development, with a strong command of HTML, CSS, JavaScript, and modern frameworks like Vue.js and React. Skilled in creating user-centric interfaces and optimizing performance for seamless user experiences.',
 	items: [
-		{
-			duration: '2023 - Present',
-			position: 'Frontend Teacher',
-			company: 'EDIT. - Disruptive Digital Education',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(FaGitSquare),
-				React.createElement(FaReact),
-			],
-			name: ['HTML5', 'CSS3', 'Git', 'ReactJS'],
-		},
-		{
-			duration: '2022 - Present',
-			position: 'Lead Frontend Developer',
-			company: 'DEUS: human(ity)-centered AI',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(IoLogoJavascript),
-				React.createElement(SiTypescript),
-				React.createElement(SiLodash),
-				React.createElement(FaReact),
-				React.createElement(SiReactquery),
-				React.createElement(SiStyledcomponents),
-				React.createElement(SiJest),
-				React.createElement(SiCypress),
-				React.createElement(SiJira),
-				React.createElement(FaFigma),
-			],
-			name: [
-				'HTML5',
-				'CSS3',
-				'JavaScript',
-				'TypeScript',
-				'Lodash',
-				'ReactJS',
-				'React Query',
-				'Styled Components',
-				'Jest',
-				'Cypress',
-				'Jira',
-				'Figma',
-			],
-		},
-		{
-			duration: '2020 - 2022',
-			position: 'Frontend Developer',
-			company: 'Cartrack',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(IoLogoJavascript),
-				React.createElement(SiTypescript),
-				React.createElement(SiLodash),
-				React.createElement(FaReact),
-				React.createElement(SiReactquery),
-				React.createElement(SiRedux),
-				React.createElement(SiStyledcomponents),
-				React.createElement(FaInvision),
-				React.createElement(SiJira),
-			],
-			name: [
-				'HTML5',
-				'CSS3',
-				'JavaScript',
-				'TypeScript',
-				'Lodash',
-				'ReactJS',
-				'React Query',
-				'Redux',
-				'Styled Components',
-				'Invision',
-				'Jira',
-			],
-		},
-		{
-			duration: '2020 - 2020',
-			position: 'Frontend Developer',
-			company: 'Harding Scott',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(IoLogoJavascript),
-				React.createElement(SiTypescript),
-				React.createElement(FaReact),
-				React.createElement(SiRedux),
-				React.createElement(FaFigma),
-			],
-			name: [
-				'HTML5',
-				'CSS3',
-				'JavaScript',
-				'TypeScript',
-				'ReactJS',
-				'Redux',
-				'Figma',
-			],
-		},
-		{
-			duration: '2018 - 2019',
-			position: 'Frontend Developer',
-			company: 'Growin',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(IoLogoJavascript),
-				React.createElement(SiTypescript),
-				React.createElement(FaReact),
-				React.createElement(SiRedux),
-				React.createElement(SiStyledcomponents),
-				React.createElement(FaFigma),
-			],
-			name: [
-				'HTML5',
-				'CSS3',
-				'JavaScript',
-				'TypeScript',
-				'ReactJS',
-				'Redux',
-				'Styled Components',
-				'Figma',
-			],
-		},
-		{
-			duration: '2017 - 2018',
-			position: 'Frontend Developer',
-			company: 'Novabase',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(IoLogoJavascript),
-				React.createElement(FaBootstrap),
-				React.createElement(FaSketch),
-				React.createElement(SiJira),
-			],
-			name: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Sketch', 'Jira'],
-		},
-		{
-			duration: '2016 - 2017',
-			position: 'Frontend Developer',
-			company: 'Altran',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(FaSass),
-				React.createElement(IoLogoJavascript),
-				React.createElement(FaBootstrap),
-			],
-			name: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'Bootstrap'],
-		},
-		{
-			duration: '2016 - 2016',
-			position: 'Frontend Developer',
-			company: 'Decskill',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(FaSass),
-				React.createElement(IoLogoJavascript),
-				React.createElement(FaAngular),
-				React.createElement(FaBootstrap),
-			],
-			name: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'Angular', 'Bootstrap'],
-		},
-		{
-			duration: '2015 - 2016',
-			position: 'FullStack Developer',
-			company: 'East Atlantic Engineering',
-			icon: [
-				React.createElement(FaHtml5),
-				React.createElement(FaCss3),
-				React.createElement(FaSass),
-				React.createElement(IoLogoJavascript),
-				React.createElement(TbBrandBackbone),
-				React.createElement(FaWordpress),
-				React.createElement(FaPhp),
-				React.createElement(FaSketch),
-				React.createElement(FaInvision),
-			],
-			name: [
-				'HTML5',
-				'CSS3',
-				'SASS',
-				'JavaScript',
-				'BackboneJS',
-				'Wordpress',
-				'PHP',
-				'Sketch',
-				'InVision',
-			],
-		},
+	  {
+		duration: 'April 2025 - Present',
+		position: 'Chief Full Stack Developer',
+		company: 'Avenue Group, Moscow, Russia (On-site)',
+		icon: [
+		  React.createElement(FaReact),
+		  React.createElement(SiTypescript),
+		  React.createElement(FaNodeJs),
+		  React.createElement(SiExpress),
+		  React.createElement(SiMongodb),
+		  React.createElement(SiTailwindcss),
+		],
+		name: [
+		  'React',
+		  'TypeScript',
+		  'Node.js',
+		  'Express',
+		  'MongoDB',
+		  'Cloudinary',
+		  'Tailwind CSS',
+		],
+	  },
+	  {
+		duration: 'October 2024 - July 2025',
+		position: 'Full-stack Web Developer',
+		company: 'Junzi Tech Solutions (Full-time)',
+		icon: [
+		  React.createElement(SiMongodb),
+		  React.createElement(FaNodeJs),
+		  React.createElement(FaReact),
+		],
+		name: ['MongoDB', 'Node.js', 'React'],
+	  },
+	  {
+		duration: 'January 2024 - Present',
+		position: 'Frontend Web Developer',
+		company: 'Freelancer.com (Remote) — Sana‘a, Yemen',
+		icon: [
+		  React.createElement(IoLogoJavascript),
+		  React.createElement(FaHtml5),
+		  React.createElement(FaCss3),
+		],
+		name: ['JavaScript', 'HTML5', 'CSS3'],
+	  },
 	],
-} as const
+  } as const
+  
+  
 
 // Education
 export const educationData = {
 	title: 'My Education',
 	description:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.',
+		'Academic foundation in Computer Science with both Bachelor and Master degrees, providing comprehensive knowledge in software development, algorithms, and modern computing technologies.',
 	items: [
 		{
-			institution: 'React GraphQL Academy',
-			degree: 'React, Redux Course',
-			duration: '2020-2020',
+			institution: 'University of Science and Technology MISIS — Moscow, Russia',
+			degree: 'Master in Computer Science',
+			duration: '2024–2026',
 		},
 		{
-			institution: 'Code for All_',
-			degree: 'FullStack Programming Bootcamp',
-			duration: '2019-2019',
-		},
-		{
-			institution: 'ETIC',
-			degree: 'Web Development Course',
-			duration: '2014 - 2015',
-		},
-		{
-			institution: 'ESCS - School of Communication and Media Studies',
-			degree: 'Bachelor of Audiovisual and Multimedia',
-			duration: '2011 - 2014',
+			institution: 'Ural Federal University — Yekaterinburg, Sverdlovsk Oblast',
+			degree: 'Bachelor in Computer Science',
+			duration: '2020–2024',
 		},
 	],
 } as const
@@ -346,7 +215,7 @@ export const educationData = {
 export const skillsData = {
 	title: 'My Skills',
 	description:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.',
+        'React.js, JavaScript, Python, Node.js (Express & MongoDB), HTML5, CSS, Git, TypeScript, PostgreSQL, MongoDB, Machine Learning, Data Visualization, Vue.js, Next.js, Tailwind CSS, Webpack, Figma, Bootstrap, AngularJS, Solidity, Web3, Truffle, Hardhat, MetaMask, Infura, Alchemy, C++, C, Vite, Redis, Excel, JIRA, Google Analytics & SEO.',
 	skillList: [
 		{
 			icon: React.createElement(FaHtml5),
@@ -417,12 +286,74 @@ export const skillsData = {
 
 // Projects
 export const projects = [
+
 	{
 		num: '01',
-		category: 'frontend',
-		title: 'project 1',
+		category: 'Music',
+		title: 'Musicax',
 		description:
-			'SaaS app with AI-powered features like text-to-multiple-voices functionality and AI-generated images with Next.js 14 and Convex.',
+		  'Music discovery and listening app to explore tracks, artists, and genres with a simple and friendly interface.',
+		stack: [
+		  { name: 'NextJS' },
+		  { name: 'ReactJS' },
+		  { name: 'TailwindCSS' },
+		],
+		image: '/assets/proj_musicax.png', // from images/Capture4.PNG
+		live: 'https://music-app-eight-liart.vercel.app/',
+		github: 'https://music-app-eight-liart.vercel.app/',
+	  },
+
+	  {
+		num: '02',
+		category: 'E-commerce',
+		title: 'Simple E-commerce Website',
+		description:
+		  'A basic e-commerce website built using modern web technologies to browse products and explore a simple purchase flow.',
+		stack: [
+		  { name: 'NextJS' },
+		  { name: 'ReactJS' },
+		  { name: 'TailwindCSS' },
+		],
+		image: '/assets/proj_shop.png', // from images/Capture.PNG in your HTML
+		live: 'https://shop-website-sable.vercel.app/',
+		github: 'https://shop-website-sable.vercel.app/',
+	  },
+	  {
+		num: '03',
+		category: 'Real Estate',
+		title: 'RentHouse Website',
+		description:
+		  'Find new and featured properties in your local city with a user-friendly interface to search, explore, and connect with listings that suit your needs.',
+		stack: [
+		  { name: 'NextJS' },
+		  { name: 'ReactJS' },
+		  { name: 'TailwindCSS' },
+		],
+		image: '/assets/proj_renthouse.png', // from images/Capture2.PNG
+		live: 'https://real-estate-website-ten-lyart.vercel.app/',
+		github: 'https://real-estate-website-ten-lyart.vercel.app/',
+	  },
+	  {
+		num: '04',
+		category: 'EdTech',
+		title: 'Educal - Online Learning Platform',
+		description:
+		  'Educal is a starter for launching an online learning platform with clean UI and structured course pages.',
+		stack: [
+		  { name: 'NextJS' },
+		  { name: 'ReactJS' },
+		  { name: 'TailwindCSS' },
+		],
+		image: '/assets/proj_educal.png', // from images/Capture3.PNG
+		live: 'https://ak-edu-pearl.vercel.app/',
+		github: 'https://ak-edu-pearl.vercel.app/',
+	  },
+	  {
+		num: '05',
+		category: 'To-do App',
+		title: 'To-do App',
+		description:
+			'A to-do app is a digital tool that helps users manage tasks and boost productivity by allowing them to create, organize, and track tasks with features like reminders, due dates, and progress tracking, all within an intuitive interface.',
 		stack: [
 			{ name: 'NextJS' },
 			{ name: 'ReactJS' },
@@ -434,7 +365,40 @@ export const projects = [
 			{ name: 'Clerk' },
 		],
 		image: '/assets/project1.png',
-		live: 'https://ai-podcaster-app.vercel.app/',
-		github: 'https://github.com/inesscatana/ai-podcast-app',
+		live: 'https://github.com/kyan9400/todo-app',
+		github: 'https://github.com/kyan9400/todo-app',
 	},
+	  {
+		num: '06',
+		category: 'Courseware',
+		title: 'naumen.scala.course',
+		description:
+		  'The "naumen.scala.course.2023.spring" course is structured with lectures as HTML presentations in the /lectures/ directory (downloadable for offline viewing). Homework lives in /homeworks/ and was uploaded progressively during the course.',
+		stack: [
+		  { name: 'Scala' },
+		  { name: 'SBT' },
+		  { name: 'HTML' },
+		  { name: 'CSS' },
+		],
+		image: '/assets/proj_scala.png',
+		live: 'https://github.com/kyan9400/naumen.scala.course.2023.spring',
+		github: 'https://github.com/kyan9400/naumen.scala.course.2023.spring',
+	  },
+	  {
+		num: '07',
+		category: 'Marketing',
+		title: 'Responsive Pricing Page',
+		description:
+		  'A responsive pricing page for purchasing video-generation credits. Includes multiple plans and a promo-code section, designed to be intuitive on both desktop and mobile.',
+		stack: [
+		  { name: 'HTML' },
+		  { name: 'CSS' },
+		  { name: 'JavaScript' },
+		  { name: 'Responsive Design' },
+		],
+		image: '/assets/proj_pricing.png',
+		live: 'https://github.com/kyan9400/pricing_page',
+		github: 'https://github.com/kyan9400/pricing_page',
+	  },
 ]
+
